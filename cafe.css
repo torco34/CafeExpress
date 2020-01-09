@@ -1,0 +1,142 @@
+:root{
+	--primary-color:#1c1c1c;
+	--secondary-color:#ff9365;
+	--white:#fff;
+	
+}
+
+
+h1, h2 {
+	font-weight: 200 !important ;
+	font-family: 'Anton', sans-serif;
+	--white:#fff;
+}
+
+body{
+
+	background: rgba(0, 0, 0, .7);
+	background-color: var(--primary-color);
+	color: var(--white);
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400 !important;
+
+}
+
+
+
+.bg-dark {
+
+	font-weight: 200 !important;
+}
+
+
+
+a {
+	color: rgba(256, 256, 256, .9);
+
+}
+
+
+
+a:hover {
+	color: rgba(256, 256, 256, .2);
+	
+}
+
+
+
+.navbar {
+	min-width: 80px;
+}
+
+
+.cafe{
+	position: relative;
+}
+
+
+
+
+.left-border{
+	border-left: 7px solid rgba(256, 256, 256, .5);
+}
+
+
+.content{
+	margin-top: 3rem;
+	padding: 0 2rem;
+}
+
+
+.active{
+	color: var(--secondary-color);
+	position: relative;
+
+}
+
+
+.siguiente{
+	position: relative;
+	top:40px;
+	left:40px;
+	font-size: 1.3rem;
+}
+
+
+
+
+.active:hover{
+	color: var(--secondary-color);
+}
+
+
+
+
+.lead{
+	font-size: 1.5rem;
+	font-weight: 200 !important;
+}
+
+
+
+.carousel-inner{
+	max-height: 100vh;
+
+}
+
+
+.carousel-button{
+	position: absolute;
+	padding: 0px;
+	background-color: rgba(256, 256, 256, .7);
+	width: 100%;
+}
+
+
+
+
+.text-primary{
+	color: var(--primary-color) !important;
+}
+
+
+
+a.text-primary:hover{
+	color: var(--primary-color) !important;
+}
+
+
+
+
+.lorem{
+	position: relative;
+	top: 100px;
+}
+
+
+.red{
+	position: relative;
+	top:30px;
+	font-size: 6rem;
+
+}
